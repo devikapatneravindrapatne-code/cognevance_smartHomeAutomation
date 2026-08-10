@@ -219,7 +219,7 @@ The simulation allowed testing of:
 
 Wokwi Project:
 
-PASTE YOUR WOKWI PROJECT LINK HERE
+(https://wokwi.com/projects/471885796490902529)
 
 ---
 
