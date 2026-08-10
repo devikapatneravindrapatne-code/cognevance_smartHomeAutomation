@@ -251,4 +251,22 @@ The relay controls the LED representing the household light.
 ![Relay ON](screenshots/relay_on.png)
 ![Light_Control](screenshots/light_control.png)
 
+## 14. Project Files
 
+The repository is organized into the following folders and files:
+
+```text
+src/
+    smart_home_automation.ino
+
+circuit/
+    smart_home_circuit.png
+
+screenshots/
+    Sensor readings, motion detection and relay operation
+
+testing/
+    Testing report
+
+documentation/
+    Project documentation
