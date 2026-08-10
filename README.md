@@ -249,6 +249,6 @@ The PIR sensor is used to detect motion.
 The relay controls the LED representing the household light.
 
 ![Relay ON](screenshots/relay_on.png)
-
+![Light_Control](screenshots/light_control.png)
 
 
