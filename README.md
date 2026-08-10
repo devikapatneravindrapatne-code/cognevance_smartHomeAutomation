@@ -222,14 +222,15 @@ Wokwi Project:
 (https://wokwi.com/projects/471885796490902529)
 
 ---
-
-## 12. Project Screenshots
+## 12.Smart Home Automation Circuit
 
 ### Smart_Home_Automation_Circuit
 
 The complete ESP32-based smart home circuit is shown below.
 
-![Smart_Home_Automation_Circuit](screenshots/smart_home_automation_circuit.png)
+![Smart_Home_Automation_Circuit](smart_home_automation_circuit.png)
+
+## 13. Project Screenshots
 
 ### Serial Monitor
 
@@ -237,11 +238,11 @@ Sensor values and system status are displayed through the Serial Monitor.
 
 ![Serial Monitor](screenshots/serial_monitor.png)
 
-### Motion Detected
+### Motion Detection
 
 The PIR sensor is used to detect motion.
 
-![Motion Detected](screenshots/motion_detected.png)
+![Motion Detection](screenshots/motion_detection.png)
 
 ### Relay and Light Control
 
