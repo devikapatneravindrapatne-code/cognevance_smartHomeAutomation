@@ -222,13 +222,13 @@ Wokwi Project:
 (https://wokwi.com/projects/471885796490902529)
 
 ---
-## 12.Smart Home Automation Circuit
+## 12. Smart Home Automation Circuit
 
 ### Smart_Home_Automation_Circuit
 
 The complete ESP32-based smart home circuit is shown below.
 
-![Smart_Home_Automation_Circuit](smart_home_automation_circuit.png)
+![Smart Home Automation Circuit](circuit/smart_home_circuit.png)
 
 ## 13. Project Screenshots
 
