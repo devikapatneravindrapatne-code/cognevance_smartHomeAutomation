@@ -1,4 +1,4 @@
-# cognevance_smartHomeAutomation
+# Cognevance_SmartHomeAutomation
 A Wokwi-simulated ESP32 Smart Home Automation System for temperature, light, and motion monitoring with automatic relay-based appliance control.
 # Smart Home Automation System
 
@@ -250,6 +250,52 @@ The relay controls the LED representing the household light.
 
 ![Relay ON](screenshots/relay_on.png)
 ![Light_Control](screenshots/light_control.png)
+
+# Smart Home Automation Dashboard
+
+The Smart Home Automation system uses a Blynk IoT dashboard to monitor sensor readings and display the status of the automated lighting system.
+
+## Dashboard
+
+The Blynk dashboard displays real-time data from the ESP32.
+
+![Smart Home Dashboard](dashboard_screenshot.png)
+![Smart Home Dashboard](dashboard_screenshot.png1)
+
+## Dashboard Parameters
+
+| Parameter | Virtual Pin | Description |
+|-----------|-------------|-------------|
+| Temperature | V0 | Displays temperature measured by the DHT22 sensor |
+| Humidity | V1 | Displays humidity measured by the DHT22 sensor |
+| Light Value | V2 | Displays the analog value from the LDR |
+| Motion | V3 | Displays PIR motion detection status |
+| Relay Status | V4 | Displays whether the relay is ON or OFF |
+| Light Status | V5 | Displays whether the household light is ON or OFF |
+
+## Working
+
+The ESP32 reads data from the DHT22, LDR and PIR sensors and sends the values to the Blynk dashboard.
+
+The automatic lighting system works according to the following condition:
+
+- Motion detected + Low light → Relay ON → Light ON
+- No motion or Sufficient light → Relay OFF → Light OFF
+
+## Dashboard Features
+
+- Real-time temperature monitoring
+- Real-time humidity monitoring
+- Light intensity monitoring
+- Motion detection status
+- Relay status monitoring
+- Automatic light status monitoring
+
+## Blynk Integration
+
+The ESP32 communicates with the Blynk IoT platform using virtual pins V0 to V5.
+
+Sensitive information such as the Blynk authentication token is not included in this repository.
 
 ## 14. Project Files
 
