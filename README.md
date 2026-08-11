@@ -259,8 +259,9 @@ The Smart Home Automation system uses a Blynk IoT dashboard to monitor sensor re
 
 The Blynk dashboard displays real-time data from the ESP32.
 
-![Smart Home Dashboard](dashboard_screenshot.png)
-![Smart Home Dashboard](dashboard_screenshot.png1)
+![Dashboard Screenshot](dashboard_screenshot.png)
+
+![Dashboard Screenshot 1](dashboard_screenshot1.png)
 
 ## Dashboard Parameters
 
