@@ -259,20 +259,20 @@ The Smart Home Automation system uses a Blynk IoT dashboard to monitor sensor re
 
 The Blynk dashboard displays real-time data from the ESP32.
 
-![Dashboard Screenshot](dashboard_screenshot.png)
+![Dashboard Screenshot](dashboard/dashboard_screenshot.png)
 
-![Dashboard Screenshot 1](dashboard_screenshot1.png)
+![Dashboard Screenshot 1](dashboard/dashboard_screenshot1.png)
 
 ## Dashboard Parameters
 
 | Parameter | Virtual Pin | Description |
-|-----------|-------------|-------------|
+|---|---|---|
 | Temperature | V0 | Displays temperature measured by the DHT22 sensor |
 | Humidity | V1 | Displays humidity measured by the DHT22 sensor |
-| Light Value | V2 | Displays the analog value from the LDR |
-| Motion | V3 | Displays PIR motion detection status |
-| Relay Status | V4 | Displays whether the relay is ON or OFF |
-| Light Status | V5 | Displays whether the household light is ON or OFF |
+| Light Value | V2 | Displays the LDR light intensity value |
+| Motion Status | V3 | Displays whether motion is detected by the PIR sensor |
+| Relay Status | V4 | Displays the current relay state |
+| Light Status | V5 | Displays whether the automated light is ON or OFF |
 
 ## Working
 
@@ -317,3 +317,6 @@ testing/
 
 documentation/
     Project documentation
+
+dashboard/
+    dashboard_screenshots
