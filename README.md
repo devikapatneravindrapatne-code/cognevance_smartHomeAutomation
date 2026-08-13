@@ -1,10 +1,5 @@
 # Cognevance_SmartHomeAutomation
 A Wokwi-simulated ESP32 Smart Home Automation System for temperature, light, and motion monitoring with automatic relay-based appliance control.
-# Smart Home Automation System
-
-## Cognevance Technologies – Embedded Systems & IoT Project
-
-A basic Smart Home Automation System developed using ESP32 and simulated using Wokwi. The system monitors temperature, light intensity, and motion and automatically controls a light using a relay based on the detected conditions.
 
 ---
 
@@ -230,26 +225,6 @@ The complete ESP32-based smart home circuit is shown below.
 
 ![Smart Home Automation Circuit](circuit/smart_home_circuit.png)
 
-## 13. Project Screenshots
-
-### Serial Monitor
-
-Sensor values and system status are displayed through the Serial Monitor.
-
-![Serial Monitor](screenshots/serial_monitor.png)
-
-### Motion Detection
-
-The PIR sensor is used to detect motion.
-
-![Motion Detection](screenshots/motion_detection.png)
-
-### Relay and Light Control
-
-The relay controls the LED representing the household light.
-
-![Relay ON](screenshots/relay_on.png)
-![Light_Control](screenshots/light_control.png)
 
 # Smart Home Automation Dashboard
 
@@ -274,23 +249,6 @@ The Blynk dashboard displays real-time data from the ESP32.
 | Relay Status | V4 | Displays the current relay state |
 | Light Status | V5 | Displays whether the automated light is ON or OFF |
 
-## Working
-
-The ESP32 reads data from the DHT22, LDR and PIR sensors and sends the values to the Blynk dashboard.
-
-The automatic lighting system works according to the following condition:
-
-- Motion detected + Low light → Relay ON → Light ON
-- No motion or Sufficient light → Relay OFF → Light OFF
-
-## Dashboard Features
-
-- Real-time temperature monitoring
-- Real-time humidity monitoring
-- Light intensity monitoring
-- Motion detection status
-- Relay status monitoring
-- Automatic light status monitoring
 
 ## Blynk Integration
 
