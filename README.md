@@ -219,7 +219,7 @@ The simulation allowed testing of:
 
 Wokwi Project:
 
-(https://wokwi.com/projects/471885796490902529)
+(https://wokwi.com/projects/472064342184223745)
 
 ---
 ## 12. Smart Home Automation Circuit
